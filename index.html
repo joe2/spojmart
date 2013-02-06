@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html lang="cs-CZ">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!--[if lt IE 9]>
+       <h2>Je potrebné používať aspoň IE 9 alebo iný prehliadač.</h2>
+    <![endif]-->
+
+    <title>Spojmart</title>
+
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dijit/themes/claro/claro.css" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojox/image/resources/image.css"/>
+    <link rel="stylesheet" href="css/styly.css" type="text/css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojo/dojo.js"></script>
+    <script src="http://openlayers.org/api/OpenLayers.js"></script>
+    <script src="js/aplikacia.js"></script>
+
+  </head>
+
+  <body class="claro">
+
+    <noscript>
+      <h3>Táto stránka vyžaduje podporu JavaScript (povolenie spúšťania aktívneho obsahu).</h3>
+    </noscript>
+
+    <header id="zahlavie">
+
+      <table>
+       <tr>
+        <!-- <td><a class="clickMenu" href="#uvod"><img src="images\logo.png" alt="lorem" height="42" width="203"/></a></td> -->
+        <td><a class="clickMenu" href="#uvod"><img src="http://farm9.staticflickr.com/8327/8435348223_03f3ca5c18_m.jpg" alt="lorem" height="42" width="203"/></a></td>
+        <td><h2>fisher - centrum</h2>
+            <h3>...SPRÁVNE SPOJENIE</h3>
+        </td>
+        <td><p>Kollárová 88, 036 01 Martin</p>
+            <p>tel./fax: 043 422 12 60-1, 0915 834 759</p>
+            <p>e-mail: spojmart@spojmart.sk</p>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+            <p>SPOJOVACÍ MATERIÁL - KOTVIACI MATERÁL - POŽIČOVŇA NÁRADIA - STAVEBNÁ CHÉMIA</p>
+        </td>
+        <td>
+            <p>Po-Pia: 7:00 - 16:30 hod</p>
+            <p>    So: 8:00 - 12:00 hod</p>
+        </td>
+       </tr>
+      </table>
+      
+    </header>
+
+    <section id="menu">
+      <nav>
+
+        <div id="mainMenu" data-dojo-type="dijit/Menu">
+		<!-- <div id="link1" data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'spojovaciMaterial'">Spojovací materál</div> -->
+		<div id="link2" data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'kotviaciMaterial'">Kotviaci materiál</div>
+		<div id="link3" data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'spojovaceDreva'">Spojovače dreva</div>
+		<div id="link4" data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'distancnePrvky'">Distančné prvky</div>
+		<div id="link5" data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'plastovePrvky'">Plastové diely</div>
+		<div id="link6" data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'retaze'">Reťaze a laná</div>
+		<div id="link7" data-dojo-type="dijit/MenuItem" data-dojo-props="iconClass:'chemia'">Stavebná chémia</div>
+
+		<div data-dojo-type="dijit/PopupMenuItem" data-dojo-props="iconClass:'sluzby'">
+			<span>Služby</span>
+			<div data-dojo-type="dijit/DropDownMenu" id="submenu1">
+				<div id="link8" data-dojo-type="dijit/MenuItem">Kanban</div>
+				<div id="link9" data-dojo-type="dijit/MenuItem">Požičovňa náradia</div>
+			</div>
+		</div>
+
+                <div data-dojo-type="dijit/MenuSeparator"></div>
+		<div id="link10" data-dojo-type="dijit/MenuItem">Obchod.podmienky</div>
+		<div id="link11" data-dojo-type="dijit/MenuItem">Technické info</div>
+
+		<div data-dojo-type="dijit/PopupMenuItem">
+			<span>Profil firmy</span>
+			<div data-dojo-type="dijit/DropDownMenu" id="submenu2">
+				<div id="link12" data-dojo-type="dijit/MenuItem">O nás</div>
+				<div id="link13" data-dojo-type="dijit/MenuItem">Referencie</div>
+				<div id="link14" data-dojo-type="dijit/MenuItem">Mapa</div>
+			</div>
+		</div>
+
+	</div>
+
+      </nav>
+    </section>
+
+    <section id="obsah" role="document" aria-live="assertive" aria-atomic="true">
+      
+      <section id="uvod" class="s_obsah">
+         <h2>Vítajte na našej stranke</h2>
+	 <div id="slideshow1" data-dojo-type="dojox/image/SlideShow" data-dojo-props="autoStart:true, noLink:true, loop:true, autoLoad:false, slideshowInterval:2, imageWidth:550, imageHeight:190"> </div>
+      </section>
+
+      <section id="spoje" class="s_obsah">
+        <h2>Spojovací materiál</h2>
+        <p>Časť pre spojovací materiál</p>
+      </section>
+    
+      <section id="kotvy" class="s_obsah">
+        <h2>fisher - centrum</h2>
+        <p>Upevňovacie systémy</p>
+        <!-- <a href="http://www.youtube.com/watch?v=yD87u7tzF5I" target="_blank"><img src="images\UpevnovacieSystemy.png" alt="lorem" width="320" height="187"/></a> -->
+        <a href="http://www.youtube.com/watch?v=yD87u7tzF5I" target="_blank"><img src="http://farm9.staticflickr.com/8513/8435332041_221fa77290_m.jpg" alt="lorem" width="320" height="187"/></a>
+        <p></p>
+        <!--
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-201/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\ChemickeKotvy.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-200/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\OceloveKotvy.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-204/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\FasadneHmozdinky.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-202/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\VseobecneHmozdinky.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-203/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\HmozdinkyDoskove.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-205/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\KotvoveRiesenia.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-212/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\Samontec.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-209/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\SanitarneUpevnovanie.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-208/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\ElektrikarskeHmozdinky.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-210/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\Peny.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-211/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\Vrtaky.png" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-214/httpstatus-404/?404;http://www.fischer-sk.sk:80/desktopdefault.apx/" target="_blank"><img src="images\Blistry.png" alt="lorem" width="176" height="198"/></a>
+        -->
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-201" target="_blank"><img src="http://farm9.staticflickr.com/8090/8434740511_b3f62cc9c1_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-200" target="_blank"><img src="http://farm9.staticflickr.com/8054/8434740339_566361afe9_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-204" target="_blank"><img src="http://farm9.staticflickr.com/8378/8434740657_dde6809a36_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-202" target="_blank"><img src="http://farm9.staticflickr.com/8094/8435823910_63046d7677_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-203" target="_blank"><img src="http://farm9.staticflickr.com/8237/8434740597_7597ea49f4_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-205" target="_blank"><img src="http://farm9.staticflickr.com/8355/8434740405_b343b6680b_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-212" target="_blank"><img src="http://farm9.staticflickr.com/8364/8434740169_62099c7cc4_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-209" target="_blank"><img src="http://farm9.staticflickr.com/8369/8435824074_b3a51169c3_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-208" target="_blank"><img src="http://farm9.staticflickr.com/8493/8434740731_4f7b43829e_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-210" target="_blank"><img src="http://farm9.staticflickr.com/8474/8435824266_c862a3caa7_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-211" target="_blank"><img src="http://farm9.staticflickr.com/8491/8434740005_eee471c635_t.jpg" alt="lorem" width="176" height="198"/></a>
+        <a href="http://www.fischer-sk.sk/desktopdefault.aspx/tabid-816/190_read-214" target="_blank"><img src="http://farm9.staticflickr.com/8495/8434740839_fb38d9a958_t.jpg" alt="lorem" width="176" height="198"/></a>
+
+      </section>
+
+      <section id="dreva" class="s_obsah">
+        <h2>Spojovače dreva</h2>
+        <div id="skupina2Input"></div>
+        <div id="gallery2" data-dojo-type="dojox.image.Gallery" data-dojo-props="autoLoad:false, imageHeight:375, imageWidth:500"></div>
+      </section>
+
+      <section id="distie" class="s_obsah">
+          <h2>Distančné prvky a armovanie sú u nás hrou.</h2>
+          <!-- <a><img src="images\d1.png" alt="lorem" width="654" height="136"/></a> -->
+          <a><img src="http://farm9.staticflickr.com/8378/8435150797_963d9a377d_m.jpg" alt="lorem" width="654" height="136"/></a>
+          <h4>DUALFIX</h4>
+          <p>Stabilná, cenovo výhodná dištančná vložka pre spodné výstuže s postrannými výrezmi prevažne pre vodorovné bednenie. Vďaka podperám  v tvare T u postranných škár je dosiahnutá významne vyššia stabilita dištančných vložiek, čo je výhodou pri vyšších vonkajších teplotách. K tomu sa vďaka veľkým výrezom ležiacim na strane a hore minimalizuje riziko vtlačenia vzduchu na dištančnej vložke pri betónovaní</p>
+          <p>Štandartná dĺžka: 2,00 m</p>
+          <!-- <a><img src="images\d2.png" alt="lorem" width="654" height="174"/></a> -->
+          <a><img src="http://farm9.staticflickr.com/8092/8436236072_9f8a614a45_m.jpg" alt="lorem" width="654" height="174"/></a>
+          <h4>DISTANČNÁ PODLOŽKA - KRÚŽOK</h4>
+          <p>Špeciálny prvok z plastu, ktorý zaručuje pevné spojenie niekoľkých rozličných priemerov (5-14 mm) vďaka špeciálnej svorke v stredu prvku. Konštrukcia prvku umožňuje dobré zatecenie betónu. Použitie len pre zvislú výstuž</p>
+          <!-- <a><img src="images\d3.png" alt="lorem" width="654" height="174"/></a> -->
+          <a><img src="http://farm9.staticflickr.com/8506/8435150411_7eb364c14b_m.jpg" alt="lorem" width="654" height="174"/></a>
+          <h4>DISTANČNÉ TELIESKO PVC - KOZLÍK</h4>
+          <p>Zvieracia distanční vložka vo farbe betónovej šedi pre vodorovné výstuže pre rôzne priemery železa. Dá sa používať aj u krížení železných výstuh. Rozsah zvierania od 6 do 12 mm</p>
+          <!-- <a><img src="images\d4.png" alt="lorem" width="654" height="174"/></a> -->
+          <a><img src="http://farm9.staticflickr.com/8225/8435150289_d87c9343c5_m.jpg" alt="lorem" width="654" height="174"/></a>
+          <!-- <a><img src="images\d5.png" alt="lorem" width="654" height="472"/></a> -->
+          <a><img src="http://farm9.staticflickr.com/8188/8435150091_ddba43ed49_m.jpg" alt="lorem" width="654" height="472"/></a>
+      </section>
+
+      <section id="plasty" class="s_obsah">
+        <h2>Plastové normované diely</h2>
+        <a><img src="http://farm9.staticflickr.com/8184/8435087535_8f8e8f3d69_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8188/8436173026_a9dd695d78_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8086/8435087427_d9c84cf02b_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8215/8435087369_eb52c4517e_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8518/8435087337_3becff5402_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8467/8435087271_26dd4969ae_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8076/8436172726_47113813b0_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8219/8436172662_7c2b83d981_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8222/8436172602_9053a9e5de_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8333/8435087049_5fccac3146_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8498/8435086999_653344cb31_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8092/8435086947_a1319a9b4c_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8219/8436172368_88a4fafbfe_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8196/8435086803_d43499fbf3_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8353/8435086583_6e8c37c9b0_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8507/8435086531_b2f9c96f5d_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8353/8435086487_84bb3a3d58_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8474/8435086441_1a31bb0b99_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8231/8436171872_0bfb2e45f7_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8094/8436171828_fe25317cd7_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8326/8436171760_924dc02d98_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8351/8435086179_710fcc6a86_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8492/8435086127_333099c8e5_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8329/8435086065_ba2dfe315f_m.jpg" alt="lorem" width="100" height="100"/></a>
+        <a><img src="http://farm9.staticflickr.com/8044/8435086023_5fd8c7b2bd_m.jpg" alt="lorem" width="100" height="100"/></a>
+	<!--
+        <a><img src="images\L01.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L02.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L03.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L04.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L05.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L06.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L07.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L08.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L09.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L10.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L11.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L12.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L13.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L14.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L15.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L16.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L17.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L18.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L19.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L20.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L21.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L22.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L23.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L24.png" alt="lorem" width="100" height="100"/></a>
+        <a><img src="images\L25.png" alt="lorem" width="100" height="100"/></a>
+	-->
+      </section>
+
+      <section id="retaze" class="s_obsah">
+        <h2>Reťaze a oceľové laná</h2>
+        <a><img src="http://farm9.staticflickr.com/8476/8436202198_76a0f06b18_m.jpg" alt="lorem" width="300" height="171"/></a>
+        <a><img src="http://farm9.staticflickr.com/8354/8435116749_a01896ac4d_m.jpg" alt="lorem" width="265" height="223"/></a>
+	<!--
+        <a><img src="images\retaz.png" alt="lorem" width="300" height="171"/></a>
+        <a><img src="images\lano.png" alt="lorem" width="265" height="223"/></a>
+	-->
+      </section>
+
+      <section id="chemia" class="s_obsah">
+        <h2>Stavebná chémia</h2>
+        <!-- <a><img src="images\chemia1.png" alt="lorem" width="423" height="423"/></a> -->
+	<a><img src="http://farm9.staticflickr.com/8229/8435132833_4e827aef4b_m.jpg" alt="lorem" width="423" height="423"/></a>
+        <p>Doporučujeme - lepenie izolačných dosiek</p>
+        <!-- <a href="http://www.youtube.com/watch?v=HhNXIDoB38k" target="_blank"><img src="images\chemia2.png" alt="lorem" width="564" height="289"/></a> -->
+	<a href="http://www.youtube.com/watch?v=HhNXIDoB38k" target="_blank"><img src="http://farm9.staticflickr.com/8372/8436215742_01b5362759_m.jpg" alt="lorem" width="564" height="289"/></a>
+        <p>Den Braven - Mamut  Glue</p>
+	<!-- <a href="http://www.youtube.com/watch?v=hia7ypm3w3I" target="_blank"><img src="images\chemia3.png" alt="lorem" width="560" height="264"/></a> -->
+        <a href="http://www.youtube.com/watch?v=hia7ypm3w3I" target="_blank"><img src="http://farm9.staticflickr.com/8226/8435127447_4c4de88b92_m.jpg" alt="lorem" width="560" height="264"/></a>
+      </section>
+
+      <section id="kanban" class="s_obsah">
+        <h2>Kanban</h2>
+        <p>Kanban je prevažne 2 a viac zásobníkový systém.</p>
+        <p>Kanban je japonský systém dielenského riadenia výroby, ktorý využíva kanban karty (systém pre jednoduchšie riadenie a zásobovanie výroby). Kanban znamená v japončine karta, štítok alebo lístok.</p>
+        <p>Dvojzásobníkový systém Kanban bol vyvinutý prevažne pre sériovo spotrebovávané -C-diely - spojovací, elektroinštalačný prevažne drobný spotrebný materiál. Princíp vychádza z mechanického rozdelenia zásoby na dve časti. Prevádzkový, z ktorého je sortiment odoberaný priamo do výroby a časť poistná. Každá časť zásoby je uložená v samostatnom zásobníku označená tzv. kanban kartou, tá nahradzuje objednávku, uľahčuje identifikáciu a kontrolu. Plynulé doplňovanie zásobníkov je zaistené pracovníkom zákazníka alebo dodávateľa v pravidelných cykloch prevažne 1x týždenne.</p>
+        <!-- <a><img src="images\Kanban.png" alt="lorem" width="544" height="164"/></a> -->
+        <a><img src="http://farm9.staticflickr.com/8221/8435170537_606ffeb47d_m.jpg" alt="lorem" width="544" height="164"/></a>
+      </section>
+
+      <section id="pozicovna" class="s_obsah">
+          <h2>Požičovňa náradia</h2>
+
+          <table>
+          	<tr>
+	          <td>
+                        <div id="skupinaInput"></div>
+		  </td>
+        	  <td>
+			<p>( cenník vo formáte <a href="http://www.spojmart.sk/UserFiles/File/Cennik.pdf" target="_blank">PDF</a> alebo <a href="http://www.spojmart.sk/UserFiles/File/Cennik.xls" target="_blank">XLS</a> )</p>
+        	  </td>
+          	</tr>
+          </table>
+ 
+	 <div id="gallery1" data-dojo-type="dojox.image.Gallery" data-dojo-props="autoLoad:false, imageHeight:375, imageWidth:500"></div>
+
+      </section>
+
+      <section id="podmienky" class="s_obsah">
+        <h2>Obchodné podmienky</h2>
+        <h3>1. Objednávky</h3>
+        <p>Objednávky sú záväzné len po potvrdení dodávateľom. Cenové ponuky sú obojstranne záväzné na základe potvrdenia oboch zmluvných strán. Zmeny alebo zrušenie potvrdenej objednávky je možné urobiť len po dohode s predávajúcim a to výhradne v písomnej forme.</p>
+        <h3>2. Termín dodania</h3>
+        <p>Termín dodania je predmetom dohody oboch zmluvných strán. V prípade zásahu nepredvídaných udalostí (porucha vo výrobe, štrajk, živelná pohroma a pod.) si predávajúci vyhradzuje právo na nevyhnutné predĺženie termínu dodávky. Táto skutočnosť nemôže byť v žiadnom prípade dôvodom k uplatneniu sankcii, alebo vymáhaniu následných škôd kupujúcim.</p>
+        <h3>3. Cena</h3>
+        <p>Cena tovaru je stanovená dohodou na základe cenového dopytu kupujúceho.V prípade, že sa podstatným spôsobom zmenia podmienky,za ktorých bola cena kalkulovaná, vyhradzuje si predávajúci právo na zmenu ceny. Zmenu je predávajúci povinný neodkladne oznámiť a kupujúci má právo do 14 dní od zmluvy odstúpi.</p>
+        <h3>4. Platobné podmienky</h3>
+        <p>Platobné podmienky sú predmetom dohody oboch zmluvných strán. V prípade odberu na faktúru je potrebné uzatvoriť kúpnu zmluvu.Tovar je až do celkového uhradenia majetkom predávajúceho. Predávajúci si vyhradzuje právo v prípade neuhradenia vziať tovar späť.</p>
+        <h3>5. Balenie</h3>
+        <p>Balenie tovaru je štandartné priemyselné balenie. Minimálne balenie tovaru je 1 ks.</p>
+        <h3>6. Doprava</h3>
+        <p>Dopravu tovaru zaisťuje predávajúci po dohode s kupujúcim. Spôsob dopravy zodpovedá veľkosti dodávky (pošta, špedičná služba, predávajúci). Prepravné podmienky je možné dohodnúť individuálne.</p>
+        <h3>7. Reklamácie</h3>
+        <p>Predávajúci poskytuje záruku na dodaný tovar v zmysle platných právnych predpisov Slovenskej republiky. Záručná doba začína plynúť dňom prevzatia tovaru odberateľom. Množstevné reklamácie je možné uplatňovať len mimo tolerancie spotrebiteľského balenia +/- 2% a to vždy len do 5 pracovných dní od prevzatia tovaru.</p>
+      </section>
+
+      <section id="tinfo" class="s_obsah">
+        <h2>Technické info</h2>
+        <h3>Virtuálny dom</h3>
+        <a href="http://www.hmozdinky.eu/a_venkovni.php" target="_blank"><img src="http://farm9.staticflickr.com/8507/8436270650_aaae422e96_m.jpg" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_sklep.php" target="_blank"><img src="http://farm9.staticflickr.com/8327/8436272798_92224fae1f_m.jpg" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_hala.php" target="_blank"><img src="http://farm9.staticflickr.com/8330/8436273518_04263e7a67_m.jpg" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_obyvak.php" target="_blank"><img src="http://farm9.staticflickr.com/8503/8435186803_268911f768_m.jpg" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_koupelna.php" target="_blank"><img src="http://farm9.staticflickr.com/8515/8436273062_b6ff955dbf_m.jpg" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_kuchyn.php" target="_blank"><img src="http://farm9.staticflickr.com/8359/8436273276_0c69429f2f_m.jpg" alt="lorem" width="176" height="199"/></a>
+	<!--
+        <a href="http://www.hmozdinky.eu/a_venkovni.php" target="_blank"><img src="images\vonkajsia.png" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_sklep.php" target="_blank"><img src="images\pivnica.png" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_hala.php" target="_blank"><img src="images\hala.png" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_obyvak.php" target="_blank"><img src="images\obyvacka.png" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_koupelna.php" target="_blank"><img src="images\kupelna.png" alt="lorem" width="176" height="199"/></a>
+        <a href="http://www.hmozdinky.eu/a_kuchyn.php" target="_blank"><img src="images\kuchyna.png" alt="lorem" width="176" height="199"/></a>
+	-->
+        <p>Výpočet spotreby chemickej kotvy na <a href="http://www.spojmart.sk/images/spotreba.xls" target="_blank">stiahnutie</a>.</p>
+        <h3>Základné vedomosti</h3>
+        <p>Základný prehľad o spôsoboch kotvenia, o druhoch stavebných materiálov, o montáži atď. V nasledujúcich odkazoch sú skryté pdf súbory stránok z nášho aktuálneho katalógu.</p>
+        <a href="http://www.spojmart.sk/UserFiles/File/1_druhy_stavebn_ch_materi_l_.pdf" target="_blank">Druhy stavebných materiálov</a>
+        <a href="http://www.spojmart.sk/UserFiles/File/2_metody_vrt_n_.pdf" target="_blank">Metódy vŕtania</a>
+        <a href="http://www.spojmart.sk/UserFiles/File/3_mont__.pdf" target="_blank">Montáž</a>
+        <a href="http://www.spojmart.sk/UserFiles/File/4_zat__en__zp_soby_kotven_.pdf" target="_blank">Zaťaženie a spôsob kotvenia</a>
+        <a href="http://www.spojmart.sk/UserFiles/File/5_druhy_poru_en__trhliny_v_betonu.pdf" target="_blank">Druhy porušení, trhliny v betóne</a>
+        <a href="http://www.spojmart.sk/UserFiles/File/6_po__rn__odolnost_kotev_a_hmo_dinek.pdf" target="_blank">Požiarna odolnosť kotev a príchytiek</a>
+        <a href="http://www.spojmart.sk/UserFiles/File/7_koroze_dynamika.pdf" target="_blank">Korózia, dynamika</a>
+        <a href="http://www.spojmart.sk/UserFiles/File/8_certifikace.pdf" target="_blank">Certifikácia</a>
+        <h3>Aplikácia chemickej kotvy Fischer - Injektážny systém</h3>
+        <a href="http://www.youtube.com/watch?v=7PDqVjs4ktI" target="_blank"><img src="http://farm9.staticflickr.com/8516/8435184599_c45e727163_m.jpg" alt="lorem" width="637" height="335"/></a>
+        <p></p>
+        <a href="http://www.youtube.com/watch?v=1qdjKIfy2RY" target="_blank"><img src="http://farm9.staticflickr.com/8334/8435186535_28005b67c8_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=pN_IeyBhtps" target="_blank"><img src="http://farm9.staticflickr.com/8358/8435186459_056a1d9716_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=OOoZHPXZgiU" target="_blank"><img src="http://farm9.staticflickr.com/8193/8435186363_7fdc669fdb_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=CPIVEPghWJ0" target="_blank"><img src="http://farm9.staticflickr.com/8087/8436272456_bbafb4e547_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=IQKBxojG6g8" target="_blank"><img src="http://farm9.staticflickr.com/8224/8436272380_4b9f9544b0_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=Dkww7p4vb0w" target="_blank"><img src="http://farm9.staticflickr.com/8187/8435186113_8bff6b121b_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=xH-DtU6-qiU" target="_blank"><img src="http://farm9.staticflickr.com/8192/8435185979_b2c1cdde36_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=e0O0_EOaKmA" target="_blank"><img src="http://farm9.staticflickr.com/8098/8435185709_940766332b_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=e0O0_EOaKmA" target="_blank"><img src="http://farm9.staticflickr.com/8355/8435185635_6817f400b8_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=w2O3E22is4E" target="_blank"><img src="http://farm9.staticflickr.com/8225/8436271778_4fb8d95522_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=eUy0_Kzm-P0" target="_blank"><img src="http://farm9.staticflickr.com/8075/8435185355_83b3601729_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=aGe51Yyv4KQ" target="_blank"><img src="http://farm9.staticflickr.com/8469/8436271560_4fec60d53e_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=u_O3QLtjj54" target="_blank"><img src="http://farm9.staticflickr.com/8194/8436271384_7ee80e5354_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=PiW4T4n78oM" target="_blank"><img src="http://farm9.staticflickr.com/8044/8436271306_3a4abcae0d_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=in4NFz7Tx4A" target="_blank"><img src="http://farm9.staticflickr.com/8491/8436271228_66d1a5cc46_m.jpg" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=iCQ2kqFBWdE" target="_blank"><img src="http://farm9.staticflickr.com/8362/8436271160_9f1d5a012d_m.jpg" alt="lorem" width="222" height="211"/></a>
+	<!--
+        <a href="http://www.youtube.com/watch?v=7PDqVjs4ktI" target="_blank"><img src="images\tinfo1.png" alt="lorem" width="637" height="335"/></a>
+        <p></p>
+        <a href="http://www.youtube.com/watch?v=1qdjKIfy2RY" target="_blank"><img src="images\T01.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=pN_IeyBhtps" target="_blank"><img src="images\T02.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=OOoZHPXZgiU" target="_blank"><img src="images\T03.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=CPIVEPghWJ0" target="_blank"><img src="images\T04.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=IQKBxojG6g8" target="_blank"><img src="images\T05.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=Dkww7p4vb0w" target="_blank"><img src="images\T06.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=xH-DtU6-qiU" target="_blank"><img src="images\T07.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=e0O0_EOaKmA" target="_blank"><img src="images\T08.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=e0O0_EOaKmA" target="_blank"><img src="images\T09.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=w2O3E22is4E" target="_blank"><img src="images\T10.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=eUy0_Kzm-P0" target="_blank"><img src="images\T11.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=aGe51Yyv4KQ" target="_blank"><img src="images\T12.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=u_O3QLtjj54" target="_blank"><img src="images\T13.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=PiW4T4n78oM" target="_blank"><img src="images\T14.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=in4NFz7Tx4A" target="_blank"><img src="images\T15.png" alt="lorem" width="222" height="211"/></a>
+        <a href="http://www.youtube.com/watch?v=iCQ2kqFBWdE" target="_blank"><img src="images\T16.png" alt="lorem" width="222" height="211"/></a>
+        <h2>Technické info strojárske</h2>
+        <h3>Výrobný proces skrutiek a matíc</h3>
+        <a href="http://www.youtube.com/watch?v=7ORomNNCSUQ" target="_blank"><img src="images\T17.png" alt="lorem" width="428" height="318"/></a>
+        <h3>ODPORÚČAME PODLOŽKY NORT-LOCK</h3>
+        <a href="http://www.youtube.com/watch?v=DMrZOgol2-I" target="_blank"><img src="images\T18.png" alt="lorem" width="559" height="289"/></a>
+	-->
+      </section>
+
+      <section id="profil" class="s_obsah">
+        <h2>Vážený zákazník,</h2>
+	<p>spoločnosť Spojmart, s r.o. vznikla 01.03.2005 na základe 7 ročných obchodných skúseností v oblasti spájania a kotvenia na územi SR a strednej európy. Región Turca mal v strojárenstve veľkú tradíciu a práve táto skutočnosť bola rozhodujúca pre náš cieľ a to ponúknuť vysokokvalitné produkty, služby a prístup v podobe maloobchodnej a veľkoobchodnej spoločnosti Spojmart s.r.o. Sme firma ktorá je silne orientovaná na región - výrobné, montážne, strojárske a stavebné firmy, živnostníkov aj bežných ľudí .</p>
+	<p>Nosný produkt našej firmy je normovaný spojovací materiál - skrutky, matice, podložky, kolíky, vruty, perá, závitove tyče, nity, klince, závlačky… vyrábané v EU normách DIN, STN, CSN, UNI, ISO, BN a iné, v pevnostnom prevedení 4.6, 4.8, 5.6, 5.8, 8.8, 10.9, 12.9 a v materiálovom prevedení ocel, nerez, mosadz, plast a iné. Naše odhodlanie a zodpovedný prístup nás za obdobie 6 rokov dostal do pozície lídra a retailového špecialistu v okrese Martin. Momentálne vieme ponúknuť cca 6000 skladových položiek s okamžitým odberom a vďaka kvalitnej obchodnéj logistike cca do 60 000 pozícií v krátkej dodacej lehote.</p>
+	<p>Druhá nosná komodita je kotviaci materiál a spojovače dreva určené pre stavebné firmy.</p>
+	<p>V ponuke nájdete to najlepšie čo ponúka trh pre Vaše riešenie upevnenia, kotvenia stavebných konštrukcií, domov, prístreškov, polyfunkčných staveb, infraštruktury, dialnic, mostov a odvetvý technológií širokého rozsahu. Samozrejmosťou u nás je poradenstvo a rôzne druhy služieb pre Vašu činnost a spokojnosť.</p>
+	<p>Požičovňa náradia, prenájom strojov, RENT malá stavebná mechanizácia je služba ktorú Vám ponúkame od r. 2011.V širšom rozsahu ktorý budeme rozvíjať podľa dopytu. Vzhľadom k aktuálnemu stavebnému podnebiu je prenájom naradia jednou z možností ako dosiahnúť produktivitu Vašej činnosti bez väčších investícií.</p>
+	<p>V ponuke máme produkty ktoré umocnia Vašu profesionalitu a nájdete ích LEN U NÁS !</p>
+	<p>- normované diely, krytky, záslepky, ovládacie elementy, dištančné prvky pre armovanie a betonáž, stavebná chémia, reťaze, ocelové laná a iné.</p>
+	<p>Stále viac rozhoduje inovačný a technologický potenciál - šanca na úspech v konkurenčnom prostredí je daná vyššou efektivitou, kvalitou produktov, služieb a cenou. Výrobno-montážny proces je priestor kde optimalizácia materiálových tokov je úzko spojená zo spoľahlivosťou a dôverou obchodného partnera. Práve tu sa uchádzame o Vašu dôveru kde Vám vieme ponúknuť našu spoluprácu.</p>
+	<p>Nášou snahou je byť spoľahlivý, špecializovaný odborne zdatný partner pre Vašu profesnú činnosť.</p>
+	<p>Registrovaným zákazníkom ponúkame :</p>
+	<p>nadštandardné logistické služby</p>
+	<p>rozvoz tovaru</p>
+	<p>poradenstvo</p>
+	<p>výrazne zľavy</p>
+	<p>vernostný program</p>
+	<p>Na záver nášho predstavenia dovolte sa nám poďakovať za Vašu dôveru a v prípade že nás ešte nepoznáte, veľmi radi Vás privítame v našej maloobchodnej predajni, kde si možete po vzájomnej konzultácii dohodnúť aj veľkoobchodné podmienky....</p>
+	<p>S pozdravom za kolektív Spojmart, s.r.o.</p>
+	<p>Miroslav Hrivnák</p>
+	<p>konateľ</p>
+      </section>
+
+      <section id="referencie" class="s_obsah">
+        <h2>Referencie</h2>
+	<p>Stavebné :</p>
+	<p>Kotvenie – diaľničné zvodidlá, proti hlukové bariéry, rekonštrukcia mostov, výstavba bytoviek, rekonštrukcie, nadstavby bytoviek, kotvenie lešení, okien, zasklenie balkónov, kotvenie oceľových konštrukcií, hál, strojov, zariadení, výstavba a rekonštrukcia detských a športových ihrísk ...</p>
+	<p>Výstavba obchodných centier Tulip, prístavba Baumax, Tesco, Campo di Martin ...</p>
+	<p>výstavba Nový Martin, Martinské Terasy, radovky Diaková, luxusný hotel Borovica Štrbské pleso, letisko M.R.Štefánika, rekonštrukcia Martinskej Teplárne...</p>
+	<p>Mnohopočetná výstavba rodinných domov, striech, prístreškov, zimné záhrady, montované drevodomy, kanadské zruby, vysokohorské chaty, altánky, ploty, drevené obklady fasády, terasy, kuchynské linky, nábytok .....</p>
+	<p>Kotvenie zdvihákov v servisoch, mostové, vežové žeriavy, dopravné značky, retardery, parkovacie miesta, skladové zariadenia, prepravníky ...</p>
+	<p>Ďalšie odvetvia výroby a montáže :</p>
+	<p>Strojárske, automobilové, železničné, elektrotechnické, farmaceutické, drevospracujúce, nábytkárske, gastronomické a iné.</p>
+	<p>Pre sériovú výrobu, montáž vieme zabezpečiť optimalizáciu nákupného systému KANBAN, Konsignačný sklad a iné podľa dohody.</p>
+	<p>Požičovňa náradia prenájom malej stavebnej mechanizácie RENT :</p>
+	<p>Stavebné firmy, živnostníci a každý kto o nás vie ..</p>
+      </section>
+
+      <section id="mapa" class="s_obsah">
+	<div id="map" data-dojo-type="dojox.geo.openlayers.widget.Map" initialLocation="{position : [ 18.92, 49.05 ], extent : 0.008 }" style="background-color: #b5d0d0; width: 600px; height: 400px;"></div>
+      </section>
+    
+
+    </section>
+
+    <section id="reklama">
+         <p>Odporúčame</p>
+         <!--
+         <a href="http://www.youtube.com/watch?v=tMet6ymckEE" target="_blank"><img src="images\fisherhmozdinka.png" alt="lorem" height="100" width="100"/></a>
+         <a href="http://www.youtube.com/watch?v=k2Ls72QW2NI" target="_blank"><img src="images\fisherinjektaz.png" alt="lorem" height="100" width="100"/></a>
+         <a href="http://www.youtube.com/watch?v=E_xLRLy0SYU" target="_blank"><img src="images\fisherhistoria.png" alt="lorem" height="100" width="100"/></a>
+         -->
+         <a href="http://www.youtube.com/watch?v=tMet6ymckEE" target="_blank"><img src="http://farm9.staticflickr.com/8465/8436434396_a95fc2d760_m.jpg" alt="lorem" height="100" width="100"/></a>
+         <a href="http://www.youtube.com/watch?v=k2Ls72QW2NI" target="_blank"><img src="http://farm9.staticflickr.com/8491/8435348383_aa4d399f8e_m.jpg" alt="lorem" height="100" width="100"/></a>
+         <a href="http://www.youtube.com/watch?v=E_xLRLy0SYU" target="_blank"><img src="http://farm9.staticflickr.com/8494/8436434470_cab4a62417_m.jpg" alt="lorem" height="100" width="100"/></a>
+    </section>
+
+    <footer id="zapatie">
+         <a id="link99" href="http://sk.linkedin.com/in/jozefbaranka" target="_blank">web developer</a>
+    </footer> 
+
+</body>
+</html>
