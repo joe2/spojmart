@@ -1,0 +1,128 @@
+﻿* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  color: black;
+  background-color: white;
+  font-family: sans-serif;
+  Font-weight:normal;
+}
+
+#zahlavie{
+  width: 100%;
+  padding-bottom: 1em;
+  font-size: x-small;
+}
+
+#zahlavie td{
+  padding: 0.2em 1em;
+}
+
+#zahlavie h2{
+  color: red;
+}
+
+
+section#menu{
+  float: left;
+  width: 13%;
+}
+
+
+#obsah{
+  float: left;
+  width: 76%;
+  padding: 0em 1.5em;
+}
+
+#obsah h2{
+  padding: 0 0 0.7em;
+}
+
+#kotvy {
+  text-align : center;
+}
+
+#kotvy h2{
+  color: red;
+}
+
+
+#pozicovna td{
+  text-align : right;
+  padding: 0.2em 1em;
+}
+
+#tinfo {
+  text-align : center;
+}
+
+#tinfo p {
+  text-align : left;
+}
+
+section#reklama{
+  float: left;
+  width: 7%;
+}
+
+
+
+footer#zapatie{
+  clear: both;
+  width: 100%; 
+  display: block; 
+  text-align: right;
+  font-size: small;
+}
+
+
+.spojovaciMaterial {
+	background: url("http://farm9.staticflickr.com/8506/8436433864_e17b7c45e6_m.jpg");
+	width: 19px;
+	height: 49px;
+}
+
+.kotviaciMaterial {
+	background: url("http://farm9.staticflickr.com/8231/8435348265_846fde515b_m.jpg");
+	width: 19px;
+	height: 49px;
+}
+
+.retaze {
+	background: url("http://farm9.staticflickr.com/8052/8435348113_606cf48b37_m.jpg");
+	width: 19px;
+	height: 49px;
+}
+
+.chemia {
+	background: url("http://farm9.staticflickr.com/8495/8436434260_5861bec6b6_m.jpg");
+	width: 19px;
+	height: 49px;
+}
+
+.spojovaceDreva {
+	background: url("http://farm9.staticflickr.com/8476/8435347993_59472cb5f1_m.jpg");
+	width: 19px;
+	height: 49px;
+}
+
+.plastovePrvky {
+	background: url("http://farm9.staticflickr.com/8514/8436434080_1ede807ee6_m.jpg");
+	width: 19px;
+	height: 49px;
+}
+
+.distancnePrvky {
+	background: url("http://farm9.staticflickr.com/8365/8436434536_1a108389dd_m.jpg");
+	width: 19px;
+	height: 49px;
+}
+
+.sluzby {
+	background: url("http://farm9.staticflickr.com/8335/8436433992_ac16b7c91b_m.jpg");
+	width: 19px;
+	height: 49px;
+}
